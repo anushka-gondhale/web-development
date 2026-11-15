@@ -1,3 +1,9 @@
-body{
-    background-color:red;
+.red{
+    color:brown;
+}
+.yellow{
+    color:aquamarine;
+}
+#firstdiv{
+    background-color: beige;
 }
