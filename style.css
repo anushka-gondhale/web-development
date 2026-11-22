@@ -1,4 +1,4 @@
-.red{
+/* .red{
     color:brown;
 }
 .yellow{
@@ -6,4 +6,8 @@
 }
 #firstdiv{
     background-color: beige;
+} */
+div{
+    background-color: aqua;
+    color:antiquewhite;
 }

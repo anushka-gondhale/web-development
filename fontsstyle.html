@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fonts and styling</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+        h1{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+            Geneva, Verdana, sans-serif;
+            color:rgb(10, 228, 10)
+        }
+
+        p{
+            /* font-style: italic; */
+            font-weight: 500;
+            font-family: 'Roboto Mono', monospace;
+            font: size 20px;
+            line-height:19px;
+            letter-spacing:5px;
+        }
+        h2{
+            text-transform: capitalize;
+            /* text-transform: lowercase; */
+            text-decoration: underline;
+            text-decoration-color: brown;
+            text-align:center
+        }
+        .lorem{
+            border: 2px solid red;
+            width: 45px;
+            text-overflow:ellipsis;
+            /* text-overflow: clip */
+            /* overflow:hidden */
+            word-break: break-all;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Fonts</h1>
+    <h2>About fonts</h2>
+    <p>this is fonts fonts styling files</p>
+    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, velit.
+    </p>
+</body>
+</html>
